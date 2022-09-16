@@ -40,4 +40,7 @@ conda activate mecrl
 Please use `allocation.ipynb` to obtain the desired results. All the blocks except last block are function definitions. The last block of this Jupyter Notebook contains `for` loop which varies number of users and servers configuration. Please change the loop accordingly. Moreover, you can change the filename of resulting files.
 
 
-> This is the code for our paper ["User Allocation in Mobile Edge Computing: A Reinforcement Learning Approach"](https://ieeexplore.ieee.org/document/9590334). Please cite our work if it's helpful for your research. 
+### Paper:
+S. P. Panda, A. Banerjee and A. Bhattacharya, "User Allocation in Mobile Edge Computing: A Deep Reinforcement Learning Approach," 2021 IEEE International Conference on Web Services (ICWS), 2021, pp. 447-458, doi: 10.1109/ICWS53863.2021.00064.
+
+> This is the code for our paper ["User Allocation in Mobile Edge Computing: A Reinforcement Learning Approach"](https://ieeexplore.ieee.org/document/9590334).
