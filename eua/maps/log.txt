@@ -1,0 +1,5 @@
+Warning 6: Normalized/laundered field name: 'postal_code' to 'postal_cod'
+Warning 6: Normalized/laundered field name: 'cycleway:left' to 'cycleway_l'
+Warning 6: Normalized/laundered field name: 'route_pref_color' to 'route_pref'
+Warning 6: Normalized/laundered field name: 'addr:country' to 'addr_count'
+Warning 6: Normalized/laundered field name: 'addr:state' to 'addr_state'

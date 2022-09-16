@@ -1,0 +1,4 @@
+Copyright and License
+---------------------
+
+Data originates from OpenStreetMap (https://www.openstreetmap.org), licensed under the Creative Commons Attribution-ShareAlike 2.0 license (CC BY-SA). For more information see: https://www.openstreetmap.org/copyright
