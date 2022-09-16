@@ -1,0 +1,25 @@
+#=========Create Virutal Environment
+Create a Virtual Environment to use TF2:
+	> python3 -m venv --system-site-packages ./venv
+	> source ./venv/bin/activate  # sh, bash, or zsh
+
+#=========Execute YOLO
+Please intall darknet and mobilenetv2 for executing this code.
+./darknet detector test ./cfg/coco.data ./cfg/yolov3.cfg ./yolov3.weights -dont_show < data/train.txt > result.txt
+
+
+#=========Path to CUDA NVCC
+export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+
+
+#=========PATH to torch installation
+export PATH=/home/subrat/anaconda3/bin:/home/subrat/anaconda3/condabin:/home/subrat/.local/bin:$PATH
+
+export PATH=/home/subrat/bin:/home/subrat/.local/bin:$PATH
+
+#=========Test
+systemd-run --scope -p MemoryMax=2000M ./darknet detector test ./cfg/coco.data ./cfg/yolov3.cfg ./yolov3.weights -dont_show < data/train.txt > result.txt
+
+
