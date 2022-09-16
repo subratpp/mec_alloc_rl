@@ -4,9 +4,8 @@
 
 Implementation is done using conda and jupyter-notebook. 
 
-Setup your computer with Anaconda and ensure following imports executes properly. You may need to install packages like OpenAIGym, Stable-Baselines3, PyTorch, Tensorboard etc.
+Install Anaconda in your system. Then create a new conda environment (using environment.yml) using the following:
 
-Please create a conda environment using environment.yml
 ```bash
 conda env create -f environment.yml
 conda activate mecrl
